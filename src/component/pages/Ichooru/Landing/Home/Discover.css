@@ -1,0 +1,70 @@
+.earn-income-section {
+  background-color: #ADD8E6;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.become-an-expert {
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  /* padding: 6px 10px; */
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.feature {
+  background-color: white;
+  padding: 20px;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: left;
+}
+
+.feature-icon {
+  display: block;
+  margin: 0 auto 10px;
+  width: 50px;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.feature-description {
+  font-size: 1rem;
+  color: #666;
+}

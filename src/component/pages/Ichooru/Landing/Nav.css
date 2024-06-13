@@ -17,6 +17,7 @@
     position: relative;
     display: inline-block;
     padding-bottom: 5px; /* Adjust as needed */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
   
 /* Styles for the bottom border */

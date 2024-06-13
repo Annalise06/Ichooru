@@ -28,13 +28,13 @@ const Hero = () => {
                   mass: 0.1
                 }}}
                 >
-                    <span className='text-neutral-100 tracking-tight text-sm uppercase font-light h-full w-full block relative linear-mask'>
-                      Post a Job
+                    <span className='text-neutral-100 tracking-tight text-sm uppercase font-light font-mirza h-full w-full block relative linear-mask'>
+                      Join the Waitlist
                     </span>
                     <span className='block absolute inset-0 rounded-md p-px linear-overlay'/>
                 </motion.button>
               </div>
-              <div>
+              {/* <div>
                 <motion.button 
                 className='px-6 py-3 rounded-md relative radial-gradient' 
                 initial={{ "--x": "100%", scale: 1}} 
@@ -52,7 +52,7 @@ const Hero = () => {
                     </span>
                     <span className='block absolute inset-0 rounded-md p-px linear-overlay'/>
                 </motion.button>
-            </div>
+            </div> */}
             </div>
             
         </div>
