@@ -1,5 +1,5 @@
 .earn-income-section {
-  background-color: #ADD8E6;
+  background-color: #e0f7f9;
   padding: 40px 20px;
   text-align: center;
 }
@@ -7,11 +7,7 @@
 .content-container {
   max-width: 1200px;
   margin: 0 auto;
-}
-
-.content-header {
-  display: flex;
-  justify-content: space-between;
+  padding: 0 20px;
 }
 
 .title {
@@ -30,14 +26,20 @@
   background-color: #00bcd4;
   color: white;
   border: none;
-  /* padding: 6px 10px; */
+  /* padding: 10px 20px; */
   font-size: 1rem;
   cursor: pointer;
-  margin-top: 10px;
+  margin-bottom: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.become-an-expert:hover {
+  background-color: #0097a7;
 }
 
 .features {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 30px;
 }
@@ -49,12 +51,18 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   text-align: left;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
 }
 
 .feature-icon {
   display: block;
   margin: 0 auto 10px;
-  width: 50px;
+  width: 500px;
 }
 
 .feature-title {
@@ -67,4 +75,59 @@
 .feature-description {
   font-size: 1rem;
   color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .feature {
+    width: 45%;
+  }
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .feature {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .become-an-expert {
+    /* padding: 8px 16px; */
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .content-header {
+    display: block;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .become-an-expert {
+    padding: 7px 12px;
+    font-size: 0.8rem;
+  }
+
+  .feature-description {
+    font-size: 0.9rem;
+  }
 }

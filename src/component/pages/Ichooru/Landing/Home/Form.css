@@ -1,0 +1,184 @@
+/* src/ClearbitForm.css */
+.containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f56b;
+}
+
+.form-container {
+  width: 40%;
+  padding: 20px;
+  border: 1px solid #cccccc8f;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.231);
+  background-color: white;
+}
+
+.form-content {
+  padding: 20px;
+  border: 1px solid #cccccc8f;
+  border-radius: 8px;
+  background-color: #f5f5f56b;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #00008B;
+  text-align: center;
+  font-size: small;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container label {
+  color: #00008B;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form-container input,
+.form-container textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: all;
+}
+
+.form-container input:hover,
+.form-container textarea:hover {
+  border: 1px solid #00008B;
+  transition: 0.5s ease-in-out;
+}
+
+.form-container button {
+  padding: 10px;
+  background-color: #00008B;
+  color: white;
+  text-transform: uppercase;
+  font-size: small;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form-container button:hover {
+  background-color: #050579;
+}
+
+.form-container a {
+  margin-top: 10px;
+  color: #052659;
+  text-decoration: none;
+  font-size: small;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.info-container {
+  width: 50%;
+}
+
+.info-container h2 {
+  margin-bottom: 10px;
+  padding-right: 80px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #00008B;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.info-container p {
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.awards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.award {
+  text-align: center;
+}
+
+.award img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.award p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .containers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-container,
+  .info-container {
+    width: 120%;
+    margin-bottom: 20px;
+  }
+
+  .info-container h2 {
+    font-size: 36px;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .awards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .award {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-container h2 {
+    font-size: 20px;
+  }
+
+  .form-container label {
+    font-size: 14px;
+  }
+
+  .form-container input,
+  .form-container textarea {
+    font-size: 14px;
+  }
+
+  .form-container button {
+    font-size: 14px;
+  }
+
+  .info-container h2 {
+    font-size: 28px;
+  }
+
+  .info-container p {
+    font-size: 14px;
+  }
+
+  .award p {
+    font-size: 12px;
+  }
+}

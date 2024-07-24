@@ -1,7 +1,10 @@
 import React from 'react';
 import "./Discover.css";
-// import rig from "../../../../../Logo Design Export/Mockup/Artboard 3 copy 13.jpg";
-import eight from "../../../../../Logo Design Export/Images/7-gif.gif"
+import img1 from "../../../../../Logo Design Export/Images/plumbing.jpg";
+import img2 from "../../../../../Logo Design Export/Images/electrical.jpg";
+import img3 from "../../../../../Logo Design Export/Images/chef.jpg";
+
+// import eight from "../../../../../Logo Design Export/Images/7-gif.gif"
 import gg from "../../../../../Logo Design Export/PNG/Horizontal Logo Full Color@4x.png"
 
 const Discover = () => {
@@ -10,29 +13,29 @@ const Discover = () => {
       <div className="content-container">
         <div className='content-header'>
             <div className='content-header-entity'>
-                <h2 className="title">Earn Income With Your Skill</h2>
-                <p className="subtitle">Earn money, get promoted and grow your team.</p>
+                <h2 className="title font-mirza">Feature With Us As An Artisan</h2>
+                <p className="subtitle font-mirza">Earn money, connect with clients and grow your business.</p>
             </div>
             <div>
-                 <button className="become-an-expert px-10 py-2">Become an Expert</button>
+                 <button className="become-an-expert px-10 py-2 font-mirza">Join the Team</button>
             </div>
         </div>
         
         <div className="features">
           <div className="feature">
-            <img src="icon1.png" alt="Icon 1" className="feature-icon" />
-            <h3 className="feature-title">Get Active</h3>
-            <p className="feature-description">Get out and discover the benefits of exercise.</p>
+            <img src={img1} alt="Icon 1" className="feature-icon" />
+            <h3 className="feature-title font-mirza">Get Active</h3>
+            <p className="feature-description font-mirza">Get out and discover the benefits of exercise.</p>
           </div>
           <div className="feature">
-            <img src="icon2.png" alt="Icon 2" className="feature-icon" />
-            <h3 className="feature-title">Flexible Plans</h3>
-            <p className="feature-description">Personalized plans to suit your lifestyle and commitment levels to get you in shape.</p>
+            <img src={img2} alt="Icon 2" className="feature-icon" />
+            <h3 className="feature-title font-mirza">Flexible Plans</h3>
+            <p className="feature-description font-mirza">Personalized plans to suit your lifestyle and commitment levels to get you in shape.</p>
           </div>
           <div className="feature">
-            <img src="icon3.png" alt="Icon 3" className="feature-icon" />
-            <h3 className="feature-title">Easy Access</h3>
-            <p className="feature-description">Access to tools and resources, and customer support for all your needs.</p>
+            <img src={img3} alt="Icon 3" className="feature-icon" />
+            <h3 className="feature-title font-mirza">Easy Access</h3>
+            <p className="feature-description font-mirza">Access to tools and resources, and customer support for all your needs.</p>
           </div>
         </div>
       </div>

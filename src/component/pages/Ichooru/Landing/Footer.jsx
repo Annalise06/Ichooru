@@ -8,9 +8,13 @@ const Footer = () => {
     <footer className="footer-section">
       <div className="footer-content">
         <div className="footer-logo">
-          <img src={logo} alt="" />
+          <img className='' src={logo} alt="" />
         </div>
-        <div className="footer-links">
+        <div className="footer-contact mt-8">
+          <p>Contact</p>
+          <p>Email</p>
+        </div>
+        {/* <div className="footer-links">
           <div className='space-y-3'>
             <p>Link 1:1</p>
             <p>Link 1:2</p>
@@ -26,12 +30,9 @@ const Footer = () => {
             <p>Link 3:2</p>
             <p>Link 3:3</p>
           </div>
-        </div>
+        </div> */}
       </div>
-      <div className="footer-contact mx-44 mt-8">
-          <p>Contact</p>
-          <p>Email</p>
-        </div>
+      
     </footer>
   );
 };

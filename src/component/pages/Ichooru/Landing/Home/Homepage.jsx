@@ -1,9 +1,11 @@
 import React, {useState, useEffect} from 'react';
-import Nav from '../Nav';
+import Nav from "../Nav";
 import Hero from './Hero';
 import bg from "../../../../../Logo Design Export/Images/wrapper.png"
 import Discover from './Discover';
 import About from './About';
+import Form from './Form';
+import Footer from '../Footer';
 
 
 const Homepage = () => {
@@ -41,7 +43,9 @@ const Homepage = () => {
     <div>
       <About/>
       <Discover/>
+      <Form/>
     </div>
+    <Footer/>
   </>
   )
 }
